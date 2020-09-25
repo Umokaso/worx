@@ -1,0 +1,253 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body, .main-header{
+    font-family: "SF pro display regular";
+    overflow-x: hidden;
+}
+
+footer {
+    background-color: #000012;
+}
+
+.heading {
+ font-family: "Space Grotesk";
+ font-weight: bold;
+}
+
+#nav{
+    background-color: #000012 !important;
+}
+
+.logo-img{
+    width: 70px;
+}
+
+.main-header {
+    font-size: 73.048098px;
+}
+
+.women-custom-font-size {
+    font-size: 22px;
+}
+
+.event-font-size {
+    font-size: 24px;
+}
+
+.custom-font-size {
+    font-size: 20px;
+}
+
+.corevalues-reduced-width {
+    padding: 0px 22px;
+}
+
+.vision-reduced-width {
+    padding:  0px 4px;
+}
+
+.mission-reduced-width {
+    padding: 0px 22px;
+}
+
+.adjusted-width {
+    width: 75%;
+}
+
+.banner-style {
+    background-image: url(../media/index/banner\ image.png);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+
+.banner-custom-margin {
+    margin-left: 5%;
+}
+
+.custom-logo-padding {
+    padding-left: 5.2%;
+    padding-right: 5.2%;
+}
+
+.txt-group-style {
+    background-color: #c9c6df;
+}
+
+.txt-group-style-2 {
+    padding: 0px 40px;
+}
+
+.section-margin {
+    margin-top: 100px;
+}
+
+.mission-and-vision {
+    background-color: #000012;
+}
+
+.yellow-txt {
+    color: #FF00FF;
+}
+
+.worx-logo-resize {
+    width: 100px;
+}
+
+.event-img-resize {
+    width: 100px;
+}
+
+.flox-logo {
+    width: 62.204px;
+    height: 103.513px;
+}
+
+.host-beak {
+    width: 219px;
+    height: 66.795px;
+}
+
+.trax {
+    width: 129.6px;
+    height: 64px;
+}
+
+.ngage-logo {
+    width: 176.019px;
+    height: 74px;
+}
+
+.onuk-logo {
+    width: 114.192;
+    height: 85px;
+}
+
+.build-logo {
+    width: 77.058px;
+    height: 111px;
+}
+
+.height-style {
+    height: 90vh;
+}
+
+.custom-color {
+    color:  #14039F;
+}
+
+.custom-btn-color {
+    background-color: #000012;
+    border-radius: 0;
+}
+
+.custom-btn-yellow {
+    background-color: #FF00FF;
+    border-radius: 0;
+}
+
+.video-height {
+    height: 500px;
+}
+
+.custom-margin {
+    margin-top: 10%;
+}
+
+.span {
+    font-weight: 100;   
+}
+
+.next-logo-custom-width {
+    width: 90px;
+}
+
+.shadow {
+    border: 1px solid #FFFFFF;
+    box-shadow: 10px 10px 10px grey;
+}
+
+@media only screen and (max-width: 690px) {
+    section {
+        padding: 0px 15px;
+    }
+
+    .txt-group-style {
+        height: 335.25 !important;
+    }
+
+    .mobile-btn-padding {
+        padding-bottom: 5px;
+    }
+
+    .main-header {
+        font-size: 30px;
+    }
+
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 900px) {
+    .main-header {
+        font-size: 60px;
+    }
+
+}
+
+@media only screen and (max-width: 1002px) and (min-width: 767px) {
+    .height-style {
+        height: 95vh;
+        width: 75%;
+    }
+
+    .main-header {
+        font-size: 50px;
+    }
+}
+
+
+@media only screen and (max-width: 1009px) and (min-width: 993px) {
+    .banner-row {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 995px) and (min-width: 768px) {
+    .txt-group-style-2 {
+        padding: 0px 0px;
+    }
+
+    .women-custom-font-size {
+        font-size: 18px;
+    }
+
+    .adjusted-width {
+        width: 100%;
+        font-size: 35px;
+    }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 576px) {
+    .women-forces-reduced-width {
+        width: 80% !important;
+    }
+
+    h1.main-header {
+        font-size: 50px;
+        font-weight: bold;
+    }
+
+    .hidden-section {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 1308px) and (min-width: 1024px) {
+    .women-forces-reduced-width {
+        width: 75% !important;
+    }
+}

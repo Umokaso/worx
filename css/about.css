@@ -1,0 +1,73 @@
+body {
+    font-family: 'SF pro display regular', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.heading {
+    font-family: "Space Grotesk";
+    font-weight: bold;
+}
+
+.custom-logo-padding {
+    padding-left: 5.2%;
+    padding-right: 5.2%;
+}
+
+/* utility classes */
+
+section {
+    margin-bottom: 50px;
+}
+
+hr {
+    width: 10%;
+}
+
+.main-header {
+    font-size: 73.048098px;
+}
+
+/* Nav */
+
+#nav {
+    background-color: #000012 !important;
+}
+
+.logo-img {
+    width: 70px;
+}
+
+.who-we-are-label {
+    width: 60%;
+}
+
+.tech {
+    background-color: #000012;
+}
+
+.tech span {
+    color: #FF00FF;
+}
+
+.yellow-txt {
+    color: #FF00FF;
+}
+
+.services-card {
+    background-color: #E6E6E6;
+    margin-top: 15px;
+}
+
+.card-icon {
+    width: 30%;
+    height: auto;
+}
+
+.mission-and-vision {
+    background-color: #000012;
+}
+
+.fa-twitter, .fa-facebook {
+    background-color: white;
+    color: black;
+}
