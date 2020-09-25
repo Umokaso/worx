@@ -251,3 +251,9 @@ footer {
         width: 75% !important;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .hidden-section {
+        display: none;
+    }
+}
