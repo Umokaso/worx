@@ -3,6 +3,17 @@
     padding: 0;
 }
 
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #1A1A1A;
+}
+
+.heading {
+    font-family: 'Secular One', sans-serif;
+    font-weight: bold;
+    color: #A82728;
+}
+
 /* Navbar styling */
 
 #page {

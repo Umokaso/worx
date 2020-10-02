@@ -8,7 +8,7 @@
 }
 
 body {
-    font-family: "SF pro display regular";
+    font-family: 'Poppins', sans-serif;
 }
 
 section {
@@ -16,13 +16,13 @@ section {
 }
 
 .heading {
-    font-family: "Space Grotesk";
+    font-family: 'Secular One', sans-serif;
     font-weight: bold;
     font-size: 1.7rem;
 }
 
 .head {
-    font-family: "Space Grotesk";
+    font-family: 'Secular One', sans-serif;
     font-weight: bold;
     font-size: 1.3rem;
 }
