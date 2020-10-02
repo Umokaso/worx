@@ -21,6 +21,12 @@ section {
     font-size: 1.7rem;
 }
 
+.head {
+    font-family: "Space Grotesk";
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
 :root {
     --red-color: #EA3b3D;
     --black-color: #1A1A1A;
