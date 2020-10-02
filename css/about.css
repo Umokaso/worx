@@ -1,21 +1,17 @@
 body {
     font-family: 'SF pro display regular', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
+    color: #1A1A1A;
 }
 
 .heading {
     font-family: "Space Grotesk";
     font-weight: bold;
-}
-
-.custom-logo-padding {
-    padding-left: 5.2%;
-    padding-right: 5.2%;
+    color: #A82728;
 }
 
 /* utility classes */
 
-section {
+section, header {
     margin-bottom: 50px;
 }
 
@@ -27,30 +23,61 @@ hr {
     font-size: 73.048098px;
 }
 
-/* Nav */
+.black-bg {
+    background-color: #000000;
+}
+
+
+/* Navbar styling */
+
+#page {
+    color: white !important;
+    background-color: #EA3b3D;
+}
 
 #nav {
-    background-color: #000012 !important;
+    background-color: #FFFFFF;
 }
 
-.logo-img {
+.logo-img{
     width: 70px;
 }
+
+.nav-list-color, .black-color {
+    color: var(--black-color) !important;
+}
+
+.custom-logo-padding {
+    padding-left: 5.2%;
+    padding-right: 5.2%;
+}
+
+.nav-font {
+    font-size: large;
+    font-weight: 500;
+}
+
+
+/* Banner section */
+
+.banner {
+    margin-top: 96px;
+    position: relative;
+}
+.banner-label {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+}
+
+
 
 .who-we-are-label {
     width: 60%;
 }
 
 .tech {
-    background-color: #000012;
-}
-
-.tech span {
-    color: #FF00FF;
-}
-
-.yellow-txt {
-    color: #FF00FF;
+    color: #EA3B3D;
 }
 
 .services-card {
@@ -63,11 +90,24 @@ hr {
     height: auto;
 }
 
-.mission-and-vision {
-    background-color: #000012;
-}
-
 .fa-twitter, .fa-facebook {
     background-color: white;
     color: black;
+}
+
+.sub-btn {
+    border: none;
+    padding: 10px;
+    background-color: #EA3B3D;
+    color: white;
+}
+
+@media only screen and (max-width: 575px) {
+    div.footer-form {
+        order: 1;
+    }
+    div.footer-label {
+        text-align: center;
+        order: 2;
+    }
 }
