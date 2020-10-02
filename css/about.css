@@ -8,6 +8,16 @@ body {
     font-weight: bold;
     color: #A82728;
 }
+.head {
+    font-family: 'Secular One', sans-serif;
+    font-weight: bold;
+    color: #EA3B3D;
+}
+.card-head {
+    font-family: 'Secular One', sans-serif;
+    font-weight: bold;
+    color: #1A1A1A;
+}
 
 /* utility classes */
 

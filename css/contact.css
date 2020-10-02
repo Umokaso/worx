@@ -1,6 +1,7 @@
 * {
     border: 0;
     margin: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
 body {
@@ -14,13 +15,12 @@ body {
     color: #A82728;
 }
 
-/*////////////////*/
 /* Navbar styling */
 /*////////////////*/
 
 #page {
     color: white !important;
-    background-color: #EA3b3D;
+    background-color: #EA3B3D;
 }
 
 #nav {
@@ -32,7 +32,7 @@ body {
 }
 
 .nav-list-color, .black-color {
-    color: var(--black-color) !important;
+    color: #1A1A1A !important;
 }
 
 .custom-logo-padding {
@@ -42,6 +42,7 @@ body {
 
 .nav-font {
     font-size: large;
+    font-weight: 500;
 }
 
 .banner {
