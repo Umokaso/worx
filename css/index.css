@@ -29,24 +29,27 @@ section {
 
 :root {
     --red-color: #EA3b3D;
-    --black-color: #1A1A1A;
-    --dark-black-color: #000000;
+    --pink-color: #FF00FF;
+    --black-color: #000000;
+    --purple-color: #30062E;
     --grey-color: #cbccca;
     --maroon-color: #A82728;
 }
 
 .dark-btn-bg {
-    background-color: var(--dark-black-color);
-    border-radius: 0;
+    background-color: var(--purple-color);
+    border-radius: 7px;
 }
+
+
 
 /*////////////////*/
 /* Navbar styling */
 /*////////////////*/
 
-#page {
-    color: white !important;
-    background-color: var(--red-color);
+.page:hover {
+    color: #FF00FF !important;
+    text-decoration: underline;
 }
 
 #nav {
@@ -58,7 +61,7 @@ section {
 }
 
 .nav-list-color, .black-color {
-    color: var(--black-color) !important;
+    color: var(--purple-color) !important;
 }
 
 .custom-logo-padding {
@@ -87,8 +90,8 @@ section {
 }
 
 .custom-btn-reddish {
-    background-color: var(--red-color);
-    border-radius: 0;
+    background-color: var(--pink-color);
+    border-radius: 6;
 }
 
 .height-style {
@@ -111,24 +114,12 @@ section {
     margin-top: 100px;
 }
 
-.maroon-color {
-    color: var(--maroon-color);
+.purple-color {
+    color: var(--purple-color);
 }
 
 .digitools-paragraph {
     font-size: 1.2rem;
-}
-
-/*////////////////////////*/
-/* Mission/Vision styling */
-/*////////////////////////*/
-
-.red-text {
-    color: var(--red-color);
-}
-
-.blackish-bg {
-    background-color: var(--dark-black-color);
 }
 
 /*///////////////////////*/
@@ -188,10 +179,11 @@ section {
 }
 
 /* Footer Btn */
-.sub-btn {
+.submit-btn {
     border: none;
+    border-radius: 6px;
     padding: 10px;
-    background-color: #EA3B3D;
+    background-color: var(--pink-color);
     color: white;
 }
 
@@ -210,15 +202,45 @@ section {
     .hidden-on-mobile {
         display: none;
     }
+
+    /*resizing the partner icons for mobile*/
+    .flox-logo {
+        margin-left: 0px !important;
+        width: 20%;
+        height: auto;
+    }
+    
+    .host-beak {
+        width: 50%;
+        height: auto;
+    }
+    
+    .trax {
+        width: 30%;
+        height: auto;
+    }
+    
+    .ngage-logo {
+        width: 40%;
+        height: auto;
+    }
+    
+    .onuk-logo {
+        width: 40%;
+        height: auto;
+    }
+    
+    .build-logo {
+        width: 30%;
+        height: auto;
+    }
 }
 
 @media only screen and (max-width: 768px) {
     .hidden {
         display: none;
     }
-}
 
-@media only screen and (max-width: 768px) {
     .btn-font-size {
         font-size: 0.8rem;
     }
@@ -228,13 +250,15 @@ section {
     }
 }
 
+@media only screen and (max-width: 768px) {
+   .adjusted-width {
+       padding: 0px 20px 0px 30px !important;
+   }
+}
+
 @media only screen and (min-width: 320px) {
     .btn-padding-moble {
         padding-bottom: 15px;
-    }
-
-    .txt-group-padding-mobile {
-        padding: 0px 16px;
     }
 }
 
@@ -253,14 +277,22 @@ section {
     }
 }
 
-@media only screen and (max-width: 437px) {
+@media only screen and (max-width: 426px) {
     .reduced-font-mobile {
         font-size: 1.7rem;
     }
 
-    .explore-mobile {
+    .explore-btn-mobile {
         padding: 0px;
         font-size: 0.7rem;
+    }
+
+    .txt-group-padding-mobile {
+        padding: 30px 10px 30px 30px !important;
+    }
+
+    .shadow {
+        padding-top: 30px;
     }
 }
 

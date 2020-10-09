@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css\hamburger.css">
     <link rel="icon" href="media/indexMedia/worx logo.png">
     <title>Worx</title>
 </head>
@@ -21,19 +22,23 @@
                     alt=""></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon">
+                    <div class="hamburger" id="hamburger-1" onclick="this.classList.toggle('is-active')">
+                        <span class="line"></span>
+                        <span class="line"></span>
+                        <span class="line"></span>
+                    </div>
+                </span>
             </button>
+
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav  ml-auto">
-                    <a class="nav-item nav-link nav-list-color text-center nav-font px-3" id="page"
-                        href="index.html">Home</a>
-                    <a class="nav-item nav-link nav-list-color text-center nav-font px-3" href="about.html">About Us</a>
-                    <a class="nav-item nav-link nav-list-color text-center nav-font px-3" href="blog.html">Blog</a>
-                    <a class="nav-item nav-link nav-list-color text-center nav-font px-3" href="events.html">Events</a>
-                    <a class="nav-item nav-link nav-list-color text-center nav-font px-3"
-                        href="community.html">Community</a>
-                    <a class="nav-item nav-link nav-list-color text-center nav-font px-3" href="contact.html">Contact
-                        Us</a>
+                <div class="navbar-nav  ml-auto hover">
+                    <a class="nav-item nav-link nav-list-color text-center nav-font px-3 page" href="index.html">Home</a>
+                    <a class="nav-item nav-link nav-list-color text-center nav-font px-3 page" href="about.html">About Us</a>
+                    <a class="nav-item nav-link nav-list-color text-center nav-font px-3 page" href="blog.html">Blog</a>
+                    <a class="nav-item nav-link nav-list-color text-center nav-font px-3 page" href="events.html">Events</a>
+                    <a class="nav-item nav-link nav-list-color text-center nav-font px-3 page" href="community.html">Community</a>
+                    <a class="nav-item nav-link nav-list-color text-center nav-font px-3 page" href="contact.html">Contact Us</a>
                 </div>
             </div>
         </nav>
@@ -46,10 +51,10 @@
             </div>
             <div class="text-white banner-text">
                 <div>
-                    <h1 class="main-header heading reduced-font-mobile">Engage in Our Community</h1>
+                    <h1 class="main-header heading reduced-font-mobile">Join Our Community</h1>
                     <p class="lead hidden">Discover our community of women that are passionate about making a
                         difference and find out how you can be a part of it.</p>
-                    <a href="" class="btn text-white custom-btn-reddish explore-mobile py-2 px-4">EXPLORE</a>
+                    <a href="" class="btn text-white custom-btn-reddish explore-btn-mobile py-2 px-4">EXPLORE</a>
                 </div>
             </div>
         </section>
@@ -61,12 +66,12 @@
                         <img src="media/indexMedia/pretty lady.jpg" alt="" class="img-fluid">
                     </div>
                     <div class="col-sm-6 col-12 txt-group-bg px-0 d-flex align-items-center justify-content-center">
-                        <div class="txt-group-padding-mobile pl-3 adjusted-width">
+                        <div class="txt-group-padding-mobile adjusted-width">
                             <h1 class="heading black-color">We Are Women of The Roothub</h1>
-                            <p class="black-color paragraph-style">We are a community of proactive women from different
+                            <p class="paragraph-style">We are a community of proactive women from different
                                 professional fields who are committed to demonstrating the true essence of womanhood</p>
                             <div class="btn-padding-moble">
-                                <a class="btn text-white py-2 px-4 dark-btn-bg btn-font-size" href="#">LEARN MORE</a>
+                                <a class="btn text-white py-2 px-4 dark-btn-bg btn-font-size" href="#">EXPLORE</a>
                             </div>
                         </div>
                     </div>
@@ -78,17 +83,19 @@
             <div class="container text-center">
                 <div class="row">
                     <div class="col-sm-12">
-                        <h1 class="text-center heading maroon-color">Using DigiTools for Better Collaboration</h1>
+                        <h1 class="text-center heading purple-color">Using DigiTools for Better Collaboration</h1>
                         <p class="text-center digitools-paragraph">Collaboration between teams has never been so easy.
                             Watch the video below to discover how you can utilize resources like Google suite, Zoom and
                             Trello to boost productivity within your team.</p>
                     </div>
-                    <iframe class="mx-auto" width="560" height="315" src="https://www.youtube.com/embed/Vn-SPs4utQg" frameborder="0"
+                    <iframe class="mx-auto" width="560" height="315" src="https://www.youtube.com/embed/Vn-SPs4utQg"
+                        frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen>
                     </iframe>
                 </div>
-                <p class="text-center digitools-paragraph">For more learning resources, join our Facebook Community to
+                <p class="text-center digitools-paragraph mt-3">For more learning resources, join our Facebook Community
+                    to
                     stay up-to-date with the latest developments in tech</p>
                 <a class="btn text-white py-2 px-4 dark-btn-bg btn-font-size mx-auto" href="">GO TO FACEBOOK</a>
             </div>
@@ -103,7 +110,7 @@
                     <div class="col-sm-6 col-12 txt-group-bg px-0 d-flex align-items-center justify-content-center">
                         <div class="txt-group-padding-mobile">
                             <h1 class="heading black-color">Stay Up-To Date With Our Blog</h1>
-                            <p class="black-color">Get all the latest news on our events, programs, trainings, shows and
+                            <p class="">Get all the latest news on our events, programs, trainings, shows and
                                 the developments within our community with our blog</p>
                             <div class="btn-padding-moble">
                                 <a class="btn text-white py-2 px-4 dark-btn-bg btn-font-size" href="#">VISIT BLOG</a>
@@ -120,7 +127,7 @@
                     <div class="col-sm-6 col-12 txt-group-bg d-flex align-items-center justify-content-center ">
                         <div class="adjusted-width">
                             <h1 class="heading black-color">Stay Up-To Date With Our Blog</h1>
-                            <p class="black-color paragraph-style">Get all the latest news on our events, programs,
+                            <p class="paragraph-style">Get all the latest news on our events, programs,
                                 trainings, shows and the developments within our community with our blog</p>
                             <a class="btn text-white py-2 px-4 dark-btn-bg btn-font-size" href="#">VISIT BLOG</a>
                         </div>
@@ -138,41 +145,14 @@
                         <img src="media/indexMedia/Smiling lady.jpg" alt="" class="img-fluid">
                     </div>
                     <div class="col-sm-6 col-12 txt-group-bg px-0 d-flex align-items-center justify-content-center">
-                        <div class="txt-group-padding pl-3 adjusted-width">
-                            <h1 class="heading black-color">Our resources are your resources</h1>
-                            <p class="black-color paragraph-style">We publish articles, newsletters and videos to help
+                        <div class="txt-group-padding txt-group-padding-mobile pl-3 adjusted-width">
+                            <h1 class="heading black-color width">Our resources are your resources</h1>
+                            <p class="paragraph-style">We publish articles, newsletters and videos to help
                                 you start, improve and grow your business and career.</p>
                             <div class="btn-padding-moble">
                                 <a class="btn text-white py-2 px-4 dark-btn-bg btn-font-size" href="#">GET STARTED</a>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="section-margin blackish-bg">
-            <div class="container py-5">
-                <h2 class="heading text-center mb-5 red-text">Our Driving Forces</h2>
-                <div class="row">
-                    <div class="col-sm-4">
-                        <h3 class="head text-center red-text">Our Core Values</h3>
-                        <p class="text-white text-center">Our core values are creativity that allows our member to
-                            express themselves and diversity within our community so that women from all walks of life
-                            feel welcome and loved.
-                        </p>
-                    </div>
-                    <div class="col-sm-4">
-                        <h3 class="head text-center red-text">Our Vision</h3>
-                        <p class="text-white text-center">Our vision is to enlighten women on the need to embrace
-                            technology in their everyday lives through mentorship, coaching, training, events and
-                            showcasing women making global impact with the us of technology and ICT.</p>
-                    </div>
-                    <div class="col-sm-4">
-                        <h3 class="head text-center red-text">Our Mission</h3>
-                        <p class="text-white text-center">To grow a communtiy of women from around the world bridging
-                            the gender inequality gap in technology and using ICT tools to simplify our everyday lives
-                        </p>
                     </div>
                 </div>
             </div>
@@ -191,10 +171,6 @@
                                 <p class="paragraph-style">Join successful and experienced women on international Womens
                                     Day to discuss business and career-related topics and how technology can play a
                                     significant role in giving you a edge.</p>
-                                <div>
-                                    <img class="next-logo-custom-width img-fluid float-right hidden-on-mobile"
-                                        src="media/indexMedia/Worx next logo.png" alt="">
-                                </div>
                             </div>
                         </div>
                         <div class="col-sm-6 px-0">
@@ -214,7 +190,7 @@
                     <div class="col-sm-6 col-12 txt-group-bg d-flex align-items-center justify-content-center">
                         <div class="txt-group-padding adjusted-width">
                             <h1 class="heading black-color">Participate In The Conversation</h1>
-                            <p class="black-color paragraph-style">Make your voice heard. Speak your mind and share your
+                            <p class="paragraph-style">Make your voice heard. Speak your mind and share your
                                 opinions. We are always interested in what our community members have to say regarding
                                 the issues that concerns us</p>
                             <a class="btn text-white py-2 px-4 dark-btn-bg btn-font-size" href="#">GET IN TOUCH</a>
@@ -235,7 +211,7 @@
                     <div class="col-sm-6 col-12 txt-group-bg px-0 d-flex align-items-center justify-content-center">
                         <div class="txt-group-padding-mobile">
                             <h1 class="heading black-color">Participate In The Conversation</h1>
-                            <p class="black-color">Make your voice heard. Speak your mind and share your opinions. We
+                            <p class="">Make your voice heard. Speak your mind and share your opinions. We
                                 are always interested in what our community members have to say regarding the issues
                                 that concerns us</p>
                             <div class="btn-padding-moble">
@@ -247,26 +223,26 @@
             </div>
         </section>
 
-        <section class="section-margin hidden-on-mobile">
-            <div class="container mx-auto">
-                <h1 class="text-center heading maroon-color">Meet Our Partners</h1>
+        <section class="section-margin">
+            <div class="container-fluid mx-auto">
+                <h1 class="text-center heading black-color">Our Partners</h1>
                 <div class="row mt-5 ">
-                    <div class="col-sm-2 col-12">
+                    <div class="col-sm-2">
                         <img class="flox-logo ml-5 img-fluid" src="media/indexMedia/flox logo.png" alt="">
                     </div>
-                    <div class="col-sm-2 col-12">
+                    <div class="col-sm-2">
                         <img class="host-beak img-fluid" src="media/indexMedia/hostbeak logo.png" alt="">
                     </div>
-                    <div class="col-sm-2 col-12">
+                    <div class="col-sm-2">
                         <img class="trax img-fluid" src="media/indexMedia/trax.ng logo.png" alt="">
                     </div>
-                    <div class="col-sm-2 col-12">
+                    <div class="col-sm-2">
                         <img class="ngage-logo img-fluid" src="media/indexMedia/ngage logo.png" alt="">
                     </div>
-                    <div class="col-sm-2 col-12">
+                    <div class="col-sm-2">
                         <img class="onuk-logo img-fluid" src="media/indexMedia/owk logo.png" alt="">
                     </div>
-                    <div class="col-sm-2 col-12">
+                    <div class="col-sm-2">
                         <img class="build-logo img-fluid" src="media/indexMedia/regular logo.png " alt="">
                     </div>
                 </div>
@@ -289,7 +265,7 @@
                                 WORX activities</p>
                             <form action="">
                                 <input type="text" placeholder="email@example.com" style="width:100%; padding:10px;">
-                                <button type="button" class="sub-btn mt-3">SUBSCRIBE</button>
+                                <button type="button" class="submit-btn mt-3">SUBSCRIBE</button>
                             </form>
                         </div>
                     </div>

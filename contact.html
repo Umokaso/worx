@@ -12,6 +12,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="icon" href="media/indexMedia/worx logo.png">
+    <link rel="stylesheet" href="css\hamburger.css">
 
     <title>Contact Us</title>
 </head>
@@ -23,18 +24,22 @@
                     alt=""></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon">
+                    <div class="hamburger" id="hamburger-1" onclick="this.classList.toggle('is-active')">
+                        <span class="line"></span>
+                        <span class="line"></span>
+                        <span class="line"></span>
+                    </div>
+                </span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav  ml-auto">
-                    <a class="nav-item nav-link nav-list-color text-center nav-font px-3"
-                        href="index.html">Home</a>
-                    <a class="nav-item nav-link nav-list-color text-center nav-font px-3" href="about.html">About Us</a>
-                    <a class="nav-item nav-link nav-list-color text-center nav-font px-3" href="blog.html">Blog</a>
-                    <a class="nav-item nav-link nav-list-color text-center nav-font px-3" href="events.html">Events</a>
-                    <a class="nav-item nav-link nav-list-color text-center nav-font px-3"
-                        href="community.html">Community</a>
-                    <a class="nav-item nav-link nav-list-color text-center nav-font px-3" id="page" href="contact.html">Contact
+                    <a class="nav-item nav-link nav-list-color text-center nav-font px-3 page" href="index.html">Home</a>
+                    <a class="nav-item nav-link nav-list-color text-center nav-font px-3 page" href="about.html">About Us</a>
+                    <a class="nav-item nav-link nav-list-color text-center nav-font px-3 page" href="blog.html">Blog</a>
+                    <a class="nav-item nav-link nav-list-color text-center nav-font px-3 page" href="events.html">Events</a>
+                    <a class="nav-item nav-link nav-list-color text-center nav-font px-3 page" href="community.html">Community</a>
+                    <a class="nav-item nav-link nav-list-color text-center nav-font px-3 page" href="contact.html">Contact
                         Us</a>
                 </div>
             </div>
@@ -97,10 +102,11 @@
                             <li><i class="fas fa-phone"></i><a href="tel:08793672000">+234 879 3672 000</a></li>
                         </ul>
                         <h5>Social Media</h5>
-                        <p>Follow Us on <a href="https://www.facebook.com">Facebook</a>,<a
-                                href="https://www.instagram.com">
-                                Instagram</a>,<a href="https://wwww.twitter.com"> Twitter</a>, and <a
-                                href="https://www.web.whatsapp.com">Whatsapp </a>to keep in touch with daily updates.
+                        <p>Follow Us on <a href="https://www.facebook.com" target="blank">Facebook</a>,<a
+                                href="https://www.instagram.com" target="blank">
+                                Instagram</a>,<a href="https://wwww.twitter.com" target="blank"> Twitter</a>, and <a
+                                href="https://www.web.whatsapp.com" target="blank">Whatsapp </a>to keep in touch with
+                            daily updates.
                         </p>
                     </div> <!-- end of text-container -->
                 </div> <!-- end of col -->

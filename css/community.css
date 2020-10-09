@@ -17,9 +17,9 @@ body {
     font-weight: bold;
 }
 
-#page {
-    color: white !important;
-    background-color: #EA3b3D;
+.page:hover {
+    color: #FF00FF !important;
+    text-decoration: underline;
 }
 
 #nav {
@@ -116,14 +116,19 @@ body {
 .section-join h3{
     font-weight: bold;
 }
-.btn{
+.black-btn-bg{
     border: none;
-    background-color: rgb(5, 5, 22) !important;
+    background-color: rgb(5, 5, 22);
     border-radius: 0px;
 }
 
 .custom-color {
     background-color: rgb(0, 0, 255, 0.1);
+}
+
+.reddish-bg {
+    background-color: #EA3b3D;
+    border-radius: 40px;
 }
 /* MY EXTRA SECTION ENDS HERE */
 .section-join h3{

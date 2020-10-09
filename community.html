@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/community.css">
   <link rel="icon" href="media/community/worx logo white.png">
+  <link rel="stylesheet" href="css\hamburger.css">
   <title>WORX Community</title>
 </head>
 
@@ -20,18 +21,23 @@
           alt=""></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
         aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon">
+          <div class="hamburger" id="hamburger-1" onclick="this.classList.toggle('is-active')">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+          </div>
+        </span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav  ml-auto">
-          <a class="nav-item nav-link nav-list-color text-center nav-font px-3" href="index.html">Home</a>
-          <a class="nav-item nav-link nav-list-color text-center nav-font px-3" href="about.html">About Us</a>
-          <a class="nav-item nav-link nav-list-color text-center nav-font px-3" href="blog.html">Blog</a>
-          <a class="nav-item nav-link nav-list-color text-center nav-font px-3" href="events.html">Events</a>
-          <a class="nav-item nav-link nav-list-color text-center nav-font px-3" id="page"
-              href="community.html">Community</a>
-          <a class="nav-item nav-link nav-list-color text-center nav-font px-3" href="contact.html">Contact
-              Us</a>
+          <a class="nav-item nav-link nav-list-color text-center nav-font px-3 page" href="index.html">Home</a>
+          <a class="nav-item nav-link nav-list-color text-center nav-font px-3 page" href="about.html">About Us</a>
+          <a class="nav-item nav-link nav-list-color text-center nav-font px-3 page" href="blog.html">Blog</a>
+          <a class="nav-item nav-link nav-list-color text-center nav-font px-3 page" href="events.html">Events</a>
+          <a class="nav-item nav-link nav-list-color text-center nav-font px-3 page" href="community.html">Community</a>
+          <a class="nav-item nav-link nav-list-color text-center nav-font px-3 page" href="contact.html">Contact
+            Us</a>
         </div>
       </div>
     </nav>
@@ -121,7 +127,7 @@
               Systems. She is a soft spoken, goal oriented professional with great eyes for details, resourceful and is
               highly positive about life. When she isn’t planning an event, you will find her designing on canva,
               looking up food recipes and looking for trouble…tongue out &#128523;.</span></p>
-          <button onclick="myFunction()" id="myBtn">Read more</button>
+          <button class="btn text-white reddish-bg py-1" onclick="myFunction()" id="myBtn">Read more</button>
         </div>
       </div>
 
@@ -153,7 +159,7 @@
             for her from childhood, which perhaps pushed her to her course of study. When she's not out there being a
             boss and getting work done, she's having fun with her friends and family. Her mantra is “Life is not that
             serious make sure you live each day to the fullest”</p>
-          
+
         </div>
       </div>
       <div class="row pt-5">
@@ -165,7 +171,7 @@
             bagged certificates in Project Management and Digital Marketing. Sylvia oversees content, finance, strategy,
             operations and events at TRAX.ng. She loves to travel , watch documentaries and network across multiple
             diversities of people. Also finds interest in communicating through designs.</p>
-         
+
         </div>
         <div class="col-sm-4 sylvia2">
           <img src="media/community/Sylvia Okokon.jpg" class="sylvia" alt="">
@@ -186,7 +192,7 @@
             goals/targets, a knack for connecting with decision makers and the will power to lead a team to success. Her
             Excellent presentation, negotiation, closing, and follow through skills are more stances to her strides.
             When she isn’t developing or programming, you will find her playing games.</p>
-         
+
         </div>
 
       </div>
@@ -198,49 +204,50 @@
       <p>We are always looking to add new members to our community. Get in touch with us and find out how to join us
         today.</p>
       <p class="wait">We are waiting for you!!!</p>
-      <button class="btn btn-success py-2 px-3">JOIN US</button>
+      <button class="btn btn-success py-2 px-3 black-btn-bg">JOIN US</button>
     </div>
   </section>
 
   <footer class="black-bg text-white mt-4">
     <div class="container">
-        <div class="row">
-            <div class="col-sm-6 mt-5 mb-5 footer-label">
-                <div class="pl-0">
-                    <img src="media/about/worx logo white.png" class="img-fluid" style="width: 30%;" alt="">
-                    <p class="">&copy; 2020, Women Of The Roothub Xtraordinary</p>
-                </div>
-            </div>
-            <div class="col-sm-6 mt-5 text-center footer-form">
-                <div>
-                    <h3 class="heading">Subscribe to our Newsletter</h3>
-                    <p>Sign up to recieve notifications of new blogposts by email and get the latest updates on WORX activities</p>
-                    <form action="">
-                        <input type="text" placeholder="email@example.com" style="width:100%; padding:10px;">
-                        <button type="button" class="sub-btn mt-3">SUBSCRIBE</button>
-                    </form>
-                </div>
-            </div>    
+      <div class="row">
+        <div class="col-sm-6 mt-5 mb-5 footer-label">
+          <div class="pl-0">
+            <img src="media/about/worx logo white.png" class="img-fluid" style="width: 30%;" alt="">
+            <p class="">&copy; 2020, Women Of The Roothub Xtraordinary</p>
+          </div>
         </div>
+        <div class="col-sm-6 mt-5 text-center footer-form">
+          <div>
+            <h3 class="heading">Subscribe to our Newsletter</h3>
+            <p>Sign up to recieve notifications of new blogposts by email and get the latest updates on WORX activities
+            </p>
+            <form action="">
+              <input type="text" placeholder="email@example.com" style="width:100%; padding:10px;">
+              <button type="button" class="sub-btn mt-3">SUBSCRIBE</button>
+            </form>
+          </div>
+        </div>
+      </div>
     </div>
-</footer>
+  </footer>
 
   <script>
     function myFunction() {
-    var dots = document.getElementById("dots");
-    var moreText = document.getElementById("more");
-    var btnText = document.getElementById("myBtn");
+      var dots = document.getElementById("dots");
+      var moreText = document.getElementById("more");
+      var btnText = document.getElementById("myBtn");
 
-    if (dots.style.display === "none") {
-      dots.style.display = "inline";
-      btnText.innerHTML = "Read more";
-      moreText.style.display = "none";
-    } else {
-      dots.style.display = "none";
-      btnText.innerHTML = "Read less";
-      moreText.style.display = "inline";
+      if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "Read more";
+        moreText.style.display = "none";
+      } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "Read less";
+        moreText.style.display = "inline";
+      }
     }
-  }
   </script>
 
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>

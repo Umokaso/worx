@@ -18,9 +18,9 @@ body {
 /* Navbar styling */
 /*////////////////*/
 
-#page {
-    color: white !important;
-    background-color: #EA3B3D;
+.page:hover {
+    color: #FF00FF !important;
+    text-decoration: underline;
 }
 
 #nav {
