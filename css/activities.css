@@ -70,22 +70,27 @@ hr {
     background-color: #000000;
 }
 
-.red-btn {
+.custom-btn {
     text-decoration: none;
-    background-color: #EA3B3D;
+    background-color: #FF00FF;
     padding: 10px;
     border: none;
 }
 
 .sub-btn {
-    border: none;
     padding: 10px;
-    background-color: #EA3B3D;
+    background-color: #FF00FF;
+    border: none;
+    border-radius: 7px;
     color: white;
 }
 
 .black-bg {
     background-color: #000000;
+}
+
+.event-card-body {
+    height: 250px;
 }
 
 @media only screen and (max-width: 575px) {

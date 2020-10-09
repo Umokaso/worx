@@ -6,12 +6,12 @@ body {
 .heading {
     font-family: 'Secular One', sans-serif;
     font-weight: bold;
-    color: #A82728;
+    color: #30062E;
 }
 .head {
     font-family: 'Secular One', sans-serif;
     font-weight: bold;
-    color: #EA3B3D;
+    color: #FF00FF;
 }
 .card-head {
     font-family: 'Secular One', sans-serif;
@@ -87,7 +87,7 @@ hr {
 }
 
 .tech {
-    color: #EA3B3D;
+    color: #FF00FF;
 }
 
 .services-card {
@@ -100,15 +100,18 @@ hr {
     height: auto;
 }
 
-.fa-twitter, .fa-facebook {
-    background-color: white;
-    color: black;
+.driving-forces {
+    background-image: url(../media/about/aboutBG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .sub-btn {
     border: none;
     padding: 10px;
-    background-color: #EA3B3D;
+    background-color: #FF00FF;
+    border: none;
+    border-radius: 7px;
     color: white;
 }
 
@@ -119,5 +122,11 @@ hr {
     div.footer-label {
         text-align: center;
         order: 2;
+    }
+}
+
+@media only screen and (min-width: 575px) {
+    .services-card {
+        height: 99%;
     }
 }
