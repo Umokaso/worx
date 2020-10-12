@@ -9,10 +9,15 @@ body {
     color: #1A1A1A;
 }
 
+.custom-logo-padding {
+    padding-left: 5.2% !important;
+    padding-right: 5.2% !important;
+}
+
 .heading {
-    font-family: 'Secular One', sans-serif;
+    font-family: 'Merriweather Sans', sans-serif;
     font-weight: bold;
-    color: #A82728;
+    color: #FFF;
 }
 
 /* Navbar styling */
@@ -73,15 +78,15 @@ body {
 }
 
 .form-control-input {
-    background-color: #e9e5e5;
+    background-color: #F2F2F2;
 }
 
 .form-control-textarea {
-    background-color: #e9e5e5;
+    background-color: #F2F2F2;
 }
 
 .form-2 .container .row h2 {
-    color: #a82728;
+    color: #30062E;
     font-weight: bold;
 }
 
@@ -94,11 +99,30 @@ body {
 }
 
 .send {
-    color: #fff;
+    color: #FFF;
 }
 
 #send {
-    background-color: #000;
+    background-color: #30062E;
+    border-radius: 8px;
+}
+
+.social-icon a {
+    color: #FFF;
+    background: #FF00FF;
+    width: 32px;
+    height: 32px;
+    line-height: 34px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 100%;
+    font-size: 16px;
+    margin: 15px 6px 12px 4px;
+}
+
+.social-icon a:hover {
+    background: #30062E;
+    color: #FFF;
 }
 
 .text-container ul li a {
@@ -122,14 +146,21 @@ footer {
 }
 
 .sub-btn {
+    border-radius: 8px;
     border: none;
-    padding: 10px;
-    background-color: #EA3B3D;
-    color: white;
+    padding: 15px 40px;
+    background-color: #FF00FF;
+    color: #FFF;
 }
 
 .black-bg {
     background-color: #000000;
+}
+
+@media only screen and (min-width: 320px) {
+    .social-icon {
+        margin-bottom: 30px;
+    }
 }
 
 @media only screen and (max-width: 575px) {
